@@ -27,7 +27,7 @@ app.use(session({
   saveUninitialized: false,
   cookie:{maxAge: 1 * 60 * 60 * 1000},
   store: MongoStore.create({
-    mongoUrl:'mongodb://127.0.0.1:27017/google',
+    mongoUrl:'mongodb+srv://somethingreallyyaar:passwordhipasswordhai@kuchbhi.lelra0v.mongodb.net/?retryWrites=true&w=majority',
     autoRemove: 'disabled'
   })
 }));
