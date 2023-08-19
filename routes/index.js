@@ -10,7 +10,7 @@ passport.use(
     {
       clientID: process.env["GOOGLE_CLIENT_ID"],
       clientSecret: process.env["GOOGLE_CLIENT_SECRET"],
-      callbackURL: "https://pooja-authentication.onrender.com/oauth2/redirect/google",
+      callbackURL: "/oauth2/redirect/google",
       scope: ["email", "profile"],
     },
     async function verify(issuer, profile, cb) {
